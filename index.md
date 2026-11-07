@@ -65,7 +65,7 @@ Currently pursuing my Master's degree at TU Chemnitz, Germany, I'm strengthening
 
 **Enterprise SIEM, Network Intrusion Detection & Threat Intelligence Pipeline**
 
-**Chemnitz, Germany | November 2026**
+*Chemnitz, Germany* <span style="float: right;">*November 2026*</span>
 
 An enterprise-grade, virtualized Security Operations Center (SOC) architecture integrating centralized log collection, network intrusion detection, and automated threat intelligence enrichment.
 
