@@ -59,29 +59,29 @@ Currently pursuing my Master's degree at TU Chemnitz, Germany, I'm strengthening
 
 ---
 
-## FEATURED PROJECT
+## Projects
 
-### 01. Securing a Two-Tier AWS Architecture
+### Enterprise Cyber Defense & Automated Threat Monitoring Architecture
 
-**Using a DevSecOps CI/CD Pipeline**
+**Enterprise SIEM, Network Intrusion Detection & Threat Intelligence Pipeline**
 
-*C-DAC Pune | January 2025 – February 2025*
+*Chemnitz, Germany | November 2026*
 
-A cloud security project focused on protecting AWS infrastructure and integrating automated security checks into a CI/CD pipeline.
+An enterprise-grade, virtualized Security Operations Center (SOC) architecture integrating centralized log collection, network intrusion detection, and automated threat intelligence enrichment.
 
 **Technology Stack**
 
-`AWS` `Terraform` `Jenkins` `SonarQube` `Trivy` `MySQL` `AWS WAF` `IAM` `OWASP Dependency-Check`
+`Wazuh SIEM (v4.14.9)` `Suricata IDS/IPS` `pfSense CE` `Sysmon` `Kali Linux` `VirusTotal API` `VMware Workstation` `Python` `PowerShell`
 
 **What I Implemented**
 
-- Designed and deployed a secure two-tier AWS architecture using Terraform for Infrastructure as Code.
-- Implemented automated infrastructure security scanning using Trivy.
-- Integrated SonarQube and OWASP Dependency-Check into a Jenkins CI/CD pipeline.
-- Configured AWS WAF and private subnets to protect infrastructure and isolate the MySQL database.
-- Applied least-privilege IAM policies and AWS Secrets Manager to improve credential security.
+- Architected a multi-tier virtualized SOC environment connecting a pfSense firewall gateway, Windows endpoints, and a Kali Linux attack simulation node to a centralized Wazuh SIEM manager.
+- Deployed Suricata IDS/IPS with Npcap packet capture and custom rule sets (`local.rules`, Emerging Threats) alongside structured EVE JSON logging.
+- Integrated the VirusTotal API with Wazuh Manager to automate threat intelligence hash reputation lookups for File Integrity Monitoring (FIM) events.
+- Configured Advanced Windows Sysmon (using SwiftOnSecurity noise-reduction filters) and EventChannel auditing (Event ID 4625/4624) to ingest high-definition process telemetry.
+- Simulated real-world attacks including SSH brute-force campaigns using THC-Hydra and the `rockyou.txt` wordlist, validating SIEM detection rules and alerting pipelines.
 
-**Key Areas:** Cloud Security · Infrastructure as Code · CI/CD Automation · DevSecOps
+**Key Areas:** Security Operations (SOC) · Threat Intelligence & Enrichment · SIEM Log Analysis · Network Intrusion Detection · Incident Detection & Response
 
 [Explore My GitHub Repositories](https://github.com/yash-jawoor1)
 
